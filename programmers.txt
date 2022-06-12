@@ -30,14 +30,6 @@ atmel_ice.program.tool.default=openocd
 atmel_ice.program.extra_params=
 atmel_ice.extra_params=
 
-sam_ice.name=Atmel SAM-ICE
-sam_ice.communication=USB
-sam_ice.protocol=cmsis-dap.cfg
-sam_ice.program.tool=openocd
-sam_ice.program.tool.default=openocd
-sam_ice.program.extra_params=
-sam_ice.extra_params=
-
 jlink.name=Segger J-Link
 jlink.communication=USB
 jlink.protocol=jlink.cfg
