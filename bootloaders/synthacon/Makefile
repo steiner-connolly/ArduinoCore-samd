@@ -114,7 +114,7 @@ else
   AS_CLEAN=
 endif
 
-LD_SCRIPT=bootloader_samd21x17.ld
+LD_SCRIPT=bootloader_samd21x16.ld
 
 all: print_info $(SOURCES) $(BIN) $(HEX) $(AS_BUILD)
 

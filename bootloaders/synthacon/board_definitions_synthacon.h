@@ -35,7 +35,7 @@
  * BOOT_DOUBLE_TAP_ADDRESS must point to a free SRAM cell that must not
  * be touched from the loaded application.
  */
-#define BOOT_DOUBLE_TAP_ADDRESS           (0x20007FFCul)
+#define BOOT_DOUBLE_TAP_ADDRESS           (0x20001FFCul)
 #define BOOT_DOUBLE_TAP_DATA              (*((volatile uint32_t *) BOOT_DOUBLE_TAP_ADDRESS))
 
 /*
@@ -58,6 +58,7 @@
 /* Master clock frequency */
 #define CPU_FREQUENCY                     (48000000ul)
 #define VARIANT_MCK                       CPU_FREQUENCY
+#define CRYSTALLESS
 
 /* Frequency of the board main oscillator */
 #define VARIANT_MAINOSC                   (32768ul)
