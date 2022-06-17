@@ -1,43 +1,44 @@
 {
   "packages": [
     {
-      "name": "arduino-beta",
-      "maintainer": "Arduino Betatesting",
+      "name": "steiner-connolly",
+      "maintainer": "Dave Cutting",
       "websiteURL": "http://www.arduino.cc/",
-      "email": "packages@arduino.cc",
+      "email": "davidcutting42@gmail.com",
       "help": {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
       "platforms": [
         {
-          "name": "Arduino SAMD core - Hourly build",
+          "name": "Steiner-Connolly Synthacon (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
-          "version": "%%VERSION%%",
+          "version": "1.8.13",
           "category": "Arduino",
-          "url": "http://downloads.arduino.cc/Hourly/samd/%%FILENAME%%",
-          "archiveFileName": "%%FILENAME%%",
-          "checksum": "SHA-256:%%CHECKSUM%%",
-          "size": "%%SIZE%%",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core--1.8.13.tar.bz2",
+          "archiveFileName": "core--1.8.13.tar.bz2",
+          "checksum": "SHA-256:101f30308270b6a21ba471006f750ea89e4f65e1fb7d7f2b4d9303c861b25d25",
+          "size": "1354892",
           "boards": [
-            {
-              "name": "Arduino Zero"
-            }
+            { "name": "Steiner-Connolly Synthacon" }
           ],
           "toolsDependencies": [
             {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
+              "version": "7-2017q4"
             },
             {
               "packager": "arduino",
               "name": "bossac",
-              "version": "1.7.0"
+              "version": "1.7.0-arduino3"
             },
             {
               "packager": "arduino",
               "name": "openocd",
-              "version": "0.9.0-arduino6-static"
+              "version": "0.10.0-arduino7"
             },
             {
               "packager": "arduino",
@@ -47,12 +48,12 @@
             {
               "packager": "arduino",
               "name": "CMSIS-Atmel",
-              "version": "1.1.0"
+              "version": "1.2.0"
             },
             {
               "packager": "arduino",
               "name": "arduinoOTA",
-              "version": "1.2.0"
+              "version": "1.2.1"
             }
           ]
         }
