@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core--1.8.13.tar.bz2",
           "archiveFileName": "core--1.8.13.tar.bz2",
-          "checksum": "SHA-256:9067039499b3f0e5750026d6e8ffd28bff3ad168571a6f5fc419f5f8ed4a78fe",
-          "size": "1399286",
+          "checksum": "SHA-256:fc1064f2ad5803446a947f1e33a8984527d39c7c971183a7e495d8ae5bfba215",
+          "size": "1400303",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
@@ -59,6 +59,34 @@
         }
       ],
       "tools": [
+        {
+          "name": "bossac",
+          "version": "1.9.1-fortytwo-0",
+          "systems":
+          [
+              {
+              "host": "i686-mingw32",
+              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-i686-mingw32.tar.bz2",
+              "archiveFileName": "bossac-1.9.1-fortytwo-0-i686-mingw32.tar.bz2",
+              "checksum": "SHA-256:4e846b8c5f5565d16af1d049d830a85413454f93a2c4ab11654d487fae7c5179",
+              "size": "736039"
+              },
+              {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-x86_64-apple-darwin.tar.bz2",
+              "archiveFileName": "bossac-1.9.1-fortytwo-0-x86_64-apple-darwin.tar.bz2",
+              "checksum": "SHA-256:20d1578a660400b11914483dbaf5f1da8b87ff67b124c46ebe05c57a460b2147",
+              "size": "47048"
+              },
+              {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-arm-linux-gnueabihf.tar.bz2",
+              "archiveFileName": "bossac-1.9.1-fortytwo-0-arm-linux-gnueabihf.tar.bz2",
+              "checksum": "SHA-256:c1db274d9e4bc9d4bddf0838c5f5cd535a9f9d2f135af2d56988ffae6b62523a",
+              "size": "526241"
+              }
+          ]
+        }
       ]
     }
   ]
