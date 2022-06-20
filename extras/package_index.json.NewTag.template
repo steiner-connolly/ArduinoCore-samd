@@ -31,9 +31,9 @@
               "version": "7-2017q4"
             },
             {
-              "packager": "arduino",
+              "packager": "fortytwosystems",
               "name": "bossac",
-              "version": "1.7.0-arduino3"
+              "version": "1.9.1-fortytwo-0"
             },
             {
               "packager": "arduino",

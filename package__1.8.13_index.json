@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core--1.8.13.tar.bz2",
           "archiveFileName": "core--1.8.13.tar.bz2",
-          "checksum": "SHA-256:fc1064f2ad5803446a947f1e33a8984527d39c7c971183a7e495d8ae5bfba215",
-          "size": "1400303",
+          "checksum": "SHA-256:e481bdfa5479cfc0830216aa1482a9203b6152d70d3d485dbbe1fc7c2a7d43e2",
+          "size": "1400294",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
@@ -31,9 +31,9 @@
               "version": "7-2017q4"
             },
             {
-              "packager": "arduino",
+              "packager": "fortytwosystems",
               "name": "bossac",
-              "version": "1.7.0-arduino3"
+              "version": "1.9.1-fortytwo-0"
             },
             {
               "packager": "arduino",
