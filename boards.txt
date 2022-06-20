@@ -52,4 +52,4 @@ synthacon.build.vid=0x2341
 synthacon.build.pid=0x804d
 synthacon.bootloader.tool=openocd
 synthacon.bootloader.tool.default=openocd
-synthacon.bootloader.file=zero/samd21_sam_ba.bin
+synthacon.bootloader.file=synthacon/samd21_sam_ba.bin
