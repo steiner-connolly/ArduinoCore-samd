@@ -31,7 +31,7 @@
               "version": "7-2017q4"
             },
             {
-              "packager": "fortytwosystems",
+              "packager": "steiner-connolly",
               "name": "bossac",
               "version": "1.9.1-fortytwo-0"
             },
@@ -61,7 +61,6 @@
       "tools": [
         {
           "name": "bossac",
-          "packager": "fortytwosystems",
           "version": "1.9.1-fortytwo-0",
           "systems":
           [
