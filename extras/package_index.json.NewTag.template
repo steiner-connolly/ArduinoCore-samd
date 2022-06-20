@@ -61,6 +61,7 @@
       "tools": [
         {
           "name": "bossac",
+          "packager": "fortytwosystems",
           "version": "1.9.1-fortytwo-0",
           "systems":
           [
