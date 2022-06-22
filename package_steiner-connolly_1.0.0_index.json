@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core-steiner-connolly-1.0.0.tar.bz2",
           "archiveFileName": "core-steiner-connolly-1.0.0.tar.bz2",
-          "checksum": "SHA-256:21826a1260a36c401d84ffbd037762d6129c8f5f3215b19920d825d6be6095be",
-          "size": "1249351",
+          "checksum": "SHA-256:740a7c7968e994a8a50b95dcdc0aa1320a480d176da6186aa0d63fb8b166a043",
+          "size": "1249332",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
@@ -68,8 +68,8 @@
               "host": "i686-mingw32",
               "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
               "archiveFileName": "bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
-              "checksum": "SHA-256:2d97734facff99e2cc995228ec1166e07353384859d630deaa973cd983d073e1",
-              "size": "652272"
+              "checksum": "SHA-256:20f3d327cf6274aa461c8e806b35c9265fcd242e5db58fddb95728cdcabbbeca",
+              "size": "652251"
               },
               {
               "host": "x86_64-apple-darwin",
