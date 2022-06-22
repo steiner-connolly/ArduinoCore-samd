@@ -66,10 +66,10 @@
           [
               {
               "host": "i686-mingw32",
-              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-i686-mingw32.tar.bz2",
-              "archiveFileName": "bossac-1.9.1-fortytwo-0-i686-mingw32.tar.bz2",
-              "checksum": "SHA-256:4e846b8c5f5565d16af1d049d830a85413454f93a2c4ab11654d487fae7c5179",
-              "size": "736039"
+              "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
+              "archiveFileName": "bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
+              "checksum": "SHA-256:2d97734facff99e2cc995228ec1166e07353384859d630deaa973cd983d073e1",
+              "size": "652272"
               },
               {
               "host": "x86_64-apple-darwin",

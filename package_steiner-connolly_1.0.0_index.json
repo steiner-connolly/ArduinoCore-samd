@@ -12,15 +12,15 @@
         {
           "name": "Steiner-Connolly Synthacon (32-bits ARM Cortex-M0+)",
           "architecture": "samd",
-          "version": "1.8.13",
+          "version": "1.0.0",
           "category": "Arduino",
           "help": {
             "online": "http://www.arduino.cc/en/Reference/HomePage"
           },
-          "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core--1.8.13.tar.bz2",
-          "archiveFileName": "core--1.8.13.tar.bz2",
-          "checksum": "SHA-256:74215394ad3769c700f0bf5bfd6fa655a9562f52b922a0a780d661a79380c9ce",
-          "size": "1249193",
+          "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core-steiner-connolly-1.0.0.tar.bz2",
+          "archiveFileName": "core-steiner-connolly-1.0.0.tar.bz2",
+          "checksum": "SHA-256:21826a1260a36c401d84ffbd037762d6129c8f5f3215b19920d825d6be6095be",
+          "size": "1249351",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
@@ -66,10 +66,10 @@
           [
               {
               "host": "i686-mingw32",
-              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-i686-mingw32.tar.bz2",
-              "archiveFileName": "bossac-1.9.1-fortytwo-0-i686-mingw32.tar.bz2",
-              "checksum": "SHA-256:4e846b8c5f5565d16af1d049d830a85413454f93a2c4ab11654d487fae7c5179",
-              "size": "736039"
+              "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
+              "archiveFileName": "bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
+              "checksum": "SHA-256:2d97734facff99e2cc995228ec1166e07353384859d630deaa973cd983d073e1",
+              "size": "652272"
               },
               {
               "host": "x86_64-apple-darwin",
