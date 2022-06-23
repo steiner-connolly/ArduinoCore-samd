@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core-steiner-connolly-1.0.0.tar.bz2",
           "archiveFileName": "core-steiner-connolly-1.0.0.tar.bz2",
-          "checksum": "SHA-256:e39a6f20360c6795cb8fa241fb5ec768c2f3405aae9da354758037c691a76b9b",
-          "size": "1249345",
+          "checksum": "SHA-256:c090e3c975c675d3eb6c2009415dc04b566a0c6da86f9bb05f73967e742356f6",
+          "size": "1249275",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
@@ -73,10 +73,10 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-x86_64-apple-darwin.tar.bz2",
-              "archiveFileName": "bossac-1.9.1-fortytwo-0-x86_64-apple-darwin.tar.bz2",
-              "checksum": "SHA-256:20d1578a660400b11914483dbaf5f1da8b87ff67b124c46ebe05c57a460b2147",
-              "size": "47048"
+              "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-osx.tar.bz2",
+              "archiveFileName": "bossac-steiner-connolly-1.9.2-osx.tar.bz2",
+              "checksum": "SHA-256:24101b0ece956c8fef1cef9dee7802e25f8ef379fe2426c483ba1dced9709b34",
+              "size": "46939"
             }
           ]
         }
