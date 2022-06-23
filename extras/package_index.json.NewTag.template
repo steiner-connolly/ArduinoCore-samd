@@ -68,8 +68,8 @@
               "host": "i686-mingw32",
               "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
               "archiveFileName": "bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
-              "checksum": "SHA-256:20f3d327cf6274aa461c8e806b35c9265fcd242e5db58fddb95728cdcabbbeca",
-              "size": "652251"
+              "checksum": "SHA-256:d825436e67f010a1528de1b42c8e66610afbe91277b3b76fba4f14ab1a9a06ef",
+              "size": "771247"
             },
             {
               "host": "x86_64-apple-darwin",
