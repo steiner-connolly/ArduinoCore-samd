@@ -80,12 +80,8 @@ extern "C" unsigned int PINCOUNT_fn();
 // #define digitalPinToTimer(P)
 
 // LEDs
-#define PIN_LED_13           (13u)
-#define PIN_LED_RXL          (25u)
-#define PIN_LED_TXL          (26u)
+#define PIN_LED_13           (15u)
 #define PIN_LED              PIN_LED_13
-#define PIN_LED2             PIN_LED_RXL
-#define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
 /*
@@ -174,6 +170,42 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define PIN_I2S_SD          (9u)
 #define PIN_I2S_SCK         (1u)
 #define PIN_I2S_FS          (0u)
+
+#define SCON_PIN_T0 (42u)
+#define SCON_PIN_T1 (46u)
+#define SCON_PIN_T2 (25u)
+#define SCON_PIN_T3 (19u)
+#define SCON_PIN_T4 (32u)
+#define SCON_PIN_T5 (33u)
+#define SCON_PIN_T6 (26u)
+#define SCON_PIN_T7 (27u)
+
+#define SCON_PIN_TWO_VOICE (16u)
+#define SCON_PIN_MLT (23u)
+
+#define SCON_PIN_PITCH_BEND (43u)
+#define SCON_PIN_MIDI_TX (17u)
+#define SCON_PIN_MIDI_RX (18u)
+
+#define SCON_PIN_MK0 (8u)
+#define SCON_PIN_BR0 (9u)
+#define SCON_PIN_MK1 (4u)
+#define SCON_PIN_BR1 (3u)
+#define SCON_PIN_MK2 (1u)
+#define SCON_PIN_BR2 (0u)
+#define SCON_PIN_MK3 (22u)
+#define SCON_PIN_BR3 (38u)
+#define SCON_PIN_MK4 (2u)
+#define SCON_PIN_BR4 (5u)
+#define SCON_PIN_DAC_COPI (35u)
+#define SCON_PIN_DAC_SCK (37u)
+#define SCON_PIN_DAC_CS (36u)
+#define SCON_PIN_MK5 (34u)
+#define SCON_PIN_BR5 (11u)
+#define SCON_PIN_MK6 (12u)
+#define SCON_PIN_BR6 (20u)
+#define SCON_PIN_KBT (21u)
+
 
 #ifdef __cplusplus
 }
