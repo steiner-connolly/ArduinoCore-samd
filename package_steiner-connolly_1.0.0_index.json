@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core-steiner-connolly-1.0.0.tar.bz2",
           "archiveFileName": "core-steiner-connolly-1.0.0.tar.bz2",
-          "checksum": "SHA-256:740a7c7968e994a8a50b95dcdc0aa1320a480d176da6186aa0d63fb8b166a043",
-          "size": "1249332",
+          "checksum": "SHA-256:c090e3c975c675d3eb6c2009415dc04b566a0c6da86f9bb05f73967e742356f6",
+          "size": "1249275",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
@@ -33,7 +33,7 @@
             {
               "packager": "steiner-connolly",
               "name": "bossac",
-              "version": "1.9.1-fortytwo-0"
+              "version": "1.9.2-sc"
             },
             {
               "packager": "arduino",
@@ -61,30 +61,23 @@
       "tools": [
         {
           "name": "bossac",
-          "version": "1.9.1-fortytwo-0",
+          "version": "1.9.2-sc",
           "systems":
           [
-              {
+            {
               "host": "i686-mingw32",
               "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
               "archiveFileName": "bossac-steiner-connolly-1.9.2-mingw32.tar.bz2",
-              "checksum": "SHA-256:20f3d327cf6274aa461c8e806b35c9265fcd242e5db58fddb95728cdcabbbeca",
-              "size": "652251"
-              },
-              {
+              "checksum": "SHA-256:d825436e67f010a1528de1b42c8e66610afbe91277b3b76fba4f14ab1a9a06ef",
+              "size": "771247"
+            },
+            {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-x86_64-apple-darwin.tar.bz2",
-              "archiveFileName": "bossac-1.9.1-fortytwo-0-x86_64-apple-darwin.tar.bz2",
-              "checksum": "SHA-256:20d1578a660400b11914483dbaf5f1da8b87ff67b124c46ebe05c57a460b2147",
-              "size": "47048"
-              },
-              {
-              "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/fortytwosystems/BOSSA/releases/download/v1.9.1-fortytwo-0/bossac-1.9.1-fortytwo-0-arm-linux-gnueabihf.tar.bz2",
-              "archiveFileName": "bossac-1.9.1-fortytwo-0-arm-linux-gnueabihf.tar.bz2",
-              "checksum": "SHA-256:c1db274d9e4bc9d4bddf0838c5f5cd535a9f9d2f135af2d56988ffae6b62523a",
-              "size": "526241"
-              }
+              "url": "https://github.com/steiner-connolly/BOSSA/releases/download/1.9.2/bossac-steiner-connolly-1.9.2-osx.tar.bz2",
+              "archiveFileName": "bossac-steiner-connolly-1.9.2-osx.tar.bz2",
+              "checksum": "SHA-256:24101b0ece956c8fef1cef9dee7802e25f8ef379fe2426c483ba1dced9709b34",
+              "size": "46939"
+            }
           ]
         }
       ]

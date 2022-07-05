@@ -164,39 +164,13 @@ tools.avrdude.upload.network_pattern="{network_cmd}" -address {serial.port} -por
 #
 # BOSSA
 #
-tools.bossac.path={runtime.tools.bossac-1.9.1-fortytwo-0.path}
+tools.bossac.path={runtime.tools.bossac-1.9.2-sc.path}
 tools.bossac.cmd=bossac
 tools.bossac.cmd.windows=bossac.exe
 
 tools.bossac.upload.params.verbose=-i -d
 tools.bossac.upload.params.quiet=
-tools.bossac.upload.pattern="{path}/{cmd}" -i -d --port={serial.port.file} -w -v "{build.path}/{build.project_name}.bin" -R --offset=0x2000 -e --usb-port={upload.native_usb}
-
-tools.bossac_remote.upload.pattern=/usr/bin/run-bossac {upload.verbose} --port=ttyATH0 --usb-port={upload.native_usb} -e --offset=0x2000 -w -v /tmp/sketch.bin -R
-
-# The following rule is deprecated by pluggable discovery.
-# We keep it to avoid breaking compatibility with the Arduino Java IDE.
-tools.bossac.network_cmd={runtime.tools.arduinoOTA.path}/bin/arduinoOTA
-tools.bossac.upload.network_pattern="{network_cmd}" -address {serial.port} -port 65280 -username arduino -password "{network.password}" -sketch "{build.path}/{build.project_name}.bin" -upload /sketch -b {arduinoota.extraflags}
-
-#
-# BOSSA (ignore binary size)
-#
-tools.bossacI.path={runtime.tools.bossac-1.9.1-fortytwo-0.path}
-tools.bossacI.cmd=bossac
-tools.bossacI.cmd.windows=bossac.exe
-
-tools.bossacI.upload.params.verbose=-i -d
-tools.bossacI.upload.params.quiet=
-tools.bossacI.upload.pattern="{path}/{cmd}" {upload.verbose} --port={serial.port.file} -I --usb-port={upload.native_usb} -i -e --offset=0x2000 -w "{build.path}/{build.project_name}.bin" -R
-
-tools.bossacI_remote.upload.pattern=/usr/bin/run-bossac {upload.verbose} --port=ttyATH0 --usb-port={upload.native_usb} -e --offset=0x2000 -w -v /tmp/sketch.bin -R
-
-# The following rule is deprecated by pluggable discovery.
-# We keep it to avoid breaking compatibility with the Arduino Java IDE.
-tools.bossacI.network_cmd={runtime.tools.arduinoOTA.path}/bin/arduinoOTA
-tools.bossacI.upload.network_pattern="{network_cmd}" -address {serial.port} -port 65280 -username arduino -password "{network.password}" -sketch "{build.path}/{build.project_name}.bin" -upload /sketch -b
-
+tools.bossac.upload.pattern="{path}/{cmd}" -i --port={serial.port.file} -w -v "{build.path}/{build.project_name}.bin" -R --offset=0x2000
 
 #
 # OpenOCD sketch upload
