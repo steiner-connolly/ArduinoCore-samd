@@ -19,8 +19,8 @@
           },
           "url": "https://raw.githubusercontent.com/steiner-connolly/ArduinoCore-samd/master/core-steiner-connolly-1.0.1.tar.bz2",
           "archiveFileName": "core-steiner-connolly-1.0.1.tar.bz2",
-          "checksum": "SHA-256:b077043be58dd817ca96480a5d4de9431293990f6efeba08c8dd58b5238b9ffd",
-          "size": "1227990",
+          "checksum": "SHA-256:9f775e4de9a25fac55afa8f9161c5da15edbbe2d6c73aab1f0b5897decfcd143",
+          "size": "1228184",
           "boards": [
             { "name": "Steiner-Connolly Synthacon" }
           ],
