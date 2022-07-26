@@ -104,10 +104,6 @@ static const uint8_t A5  = PIN_A5;
 static const uint8_t DAC0 = PIN_DAC0;
 #define ADC_RESOLUTION		12
 
-// Other pins
-#define PIN_ATN              (38ul)
-static const uint8_t ATN = PIN_ATN;
-
 /*
  * Serial interfaces
  */
@@ -175,8 +171,8 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define SCON_PIN_T1 (46u)
 #define SCON_PIN_T2 (25u)
 #define SCON_PIN_T3 (19u)
-#define SCON_PIN_T4 (32u)
-#define SCON_PIN_T5 (33u)
+#define SCON_PIN_T4 (30u)
+#define SCON_PIN_T5 (31u)
 #define SCON_PIN_T6 (26u)
 #define SCON_PIN_T7 (27u)
 
@@ -201,7 +197,7 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define SCON_PIN_DAC_SCK (37u)
 #define SCON_PIN_DAC_CS (36u)
 #define SCON_PIN_MK5 (34u)
-#define SCON_PIN_BR5 (11u)
+#define SCON_PIN_BR5 (6u)
 #define SCON_PIN_MK6 (12u)
 #define SCON_PIN_BR6 (20u)
 #define SCON_PIN_KBT (21u)
