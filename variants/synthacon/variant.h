@@ -198,7 +198,7 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define SCON_PIN_DAC_CS (36u)
 #define SCON_PIN_MK5 (34u)
 #define SCON_PIN_BR5 (6u)
-#define SCON_PIN_MK6 (12u)
+#define SCON_PIN_MK6 (7u)
 #define SCON_PIN_BR6 (20u)
 #define SCON_PIN_KBT (21u)
 
